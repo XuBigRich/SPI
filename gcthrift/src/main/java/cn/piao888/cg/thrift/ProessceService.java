@@ -12,7 +12,7 @@ public class ProessceService implements Proctocol {
         ProcessorDTO processorDTO=new ProcessorDTO();
         processorDTO.setProcessorName("org");
         processorDTO.setProcessor(new OrgService.Processor(new OrgDemo()));
-        System.out.println("hello world!");
+        System.out.println("hello world3!");
         return processorDTO;
     }
 }

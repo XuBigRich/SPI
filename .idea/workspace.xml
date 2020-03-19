@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa136c3-2930-46c1-95cb-79f951ef9647" name="Default Changelist" comment="" />
+    <list default="true" id="5aa136c3-2930-46c1-95cb-79f951ef9647" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gcthrift/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gcthrift/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gcthrift/src/main/java/cn/piao888/cg/thrift/ProessceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gcthrift/src/main/java/cn/piao888/cg/thrift/ProessceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gcthrift/target/classes/cn/piao888/cg/thrift/ProessceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gcthrift/target/classes/cn/piao888/cg/thrift/ProessceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testThrift/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testThrift/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testThrift/src/main/java/cn/piao888/ThriftStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/testThrift/src/main/java/cn/piao888/ThriftStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testThrift/target/classes/cn/piao888/ThriftStar.class" beforeDir="false" afterPath="$PROJECT_DIR$/testThrift/target/classes/cn/piao888/ThriftStar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testThrift/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testThrift/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testThrift/target/surefire-reports/TEST-cn.piao888.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testThrift/target/surefire-reports/TEST-cn.piao888.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testThrift/target/surefire-reports/cn.piao888.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testThrift/target/surefire-reports/cn.piao888.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testThrift/target/testThrift-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/testThrift/target/testThrift-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thrift-domo/target/thrift-domo-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/thrift-domo/target/thrift-domo-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,6 +43,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,9 +68,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../thriftdemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
@@ -103,6 +135,9 @@
       <workItem from="1583888496987" duration="490000" />
       <workItem from="1583889492540" duration="558000" />
       <workItem from="1583981029282" duration="12104000" />
+      <workItem from="1584061600539" duration="7667000" />
+      <workItem from="1584322680034" duration="858000" />
+      <workItem from="1584584775527" duration="5594000" />
     </task>
     <servers />
   </component>
@@ -126,26 +161,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1583996127844" />
-    <state x="495" y="202" key="FileChooserDialogImpl" timestamp="1583999162880">
+    <state x="495" y="202" key="FileChooserDialogImpl" timestamp="1584063738168">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="202" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1583999162880" />
-    <state width="1557" height="276" key="GridCell.Tab.0.bottom" timestamp="1583999828251">
+    <state x="495" y="202" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584063738168" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1584599271539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583999828251" />
-    <state width="1557" height="276" key="GridCell.Tab.0.center" timestamp="1583999828251">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584599271539" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1584599271539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583999828251" />
-    <state width="1557" height="276" key="GridCell.Tab.0.left" timestamp="1583999828251">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584599271539" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1584599271539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583999828251" />
-    <state width="1557" height="276" key="GridCell.Tab.0.right" timestamp="1583999828251">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584599271539" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1584599271539">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583999828251" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584599271539" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1583999722193">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -166,25 +201,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="303" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1583999584868" />
-    <state x="174" y="134" key="new project wizard" timestamp="1583991919611">
+    <state x="174" y="134" key="new project wizard" timestamp="1584323744833">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="174" y="134" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1583991919611" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gcthrift/src/main/java/cn/piao888/cg/service/OrgDemo.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gcthrift/src/main/java/cn/piao888/cg/thrift/ProessceService.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="174" y="134" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1584323744833" />
   </component>
 </project>
