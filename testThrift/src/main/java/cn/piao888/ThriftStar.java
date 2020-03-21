@@ -9,6 +9,7 @@ import org.apache.thrift.transport.*;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.Iterator;
+import java.util.List;
 import java.util.ServiceLoader;
 
 /**
@@ -26,8 +27,10 @@ public class ThriftStar{
         Iterator<Proctocol> iterable=loadedParsers.iterator();
         while(iterable.hasNext()){
             Proctocol proctocol=iterable.next();
-            ProcessorDTO processorDTO= proctocol.registerProcessor();
-            multiplexedProcessor.registerProcessor(processorDTO.getProcessorName(), processorDTO.getProcessor());
+            List<ProcessorDTO> processorDTOs= proctocol.registerProcessor();
+            for(ProcessorDTO processorDTO:processorDTOs){
+                multiplexedProcessor.registerProcessor(processorDTO.getProcessorName(), processorDTO.getProcessor());
+            }
         }
         TThreadPoolServer.Args serverArgs = new TThreadPoolServer.Args(serverTransport);
         serverArgs.processor(multiplexedProcessor);
