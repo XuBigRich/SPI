@@ -18,7 +18,7 @@
         </commentGenerator>
         <!-- 必须要有的，使用这个配置链接数据库 @TODO:是否可以扩展 -->
         <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-             connectionURL="jdbc:sqlserver://119.163.195.106:9069;databaseName=GCICS" userId="GCICS" password="GCICS">
+             connectionURL="">
             <!-- 这里面可以设置property属性，每一个property属性都设置到配置的Driver上 -->
         </jdbcConnection>
         <!-- java模型创建器，是必须要的元素 负责：1，key类（见context的defaultModelType）；2，java类；3，查询类
