@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="top.piao888.hbgc.mapper.LogMapper" >
+  <resultMap id="BaseResultMap" type="top.piao888.hbgc.domain.Log" >
+    <id column="Id" property="id" jdbcType="CHAR" />
+    <result column="UserName" property="username" jdbcType="NVARCHAR" />
+    <result column="UserId" property="userid" jdbcType="CHAR" />
+    <result column="ControllName" property="controllname" jdbcType="VARCHAR" />
+    <result column="ControllDisplayName" property="controlldisplayname" jdbcType="NVARCHAR" />
+    <result column="ActionName" property="actionname" jdbcType="VARCHAR" />
+    <result column="ActionDisplayName" property="actiondisplayname" jdbcType="NVARCHAR" />
+    <result column="HostName" property="hostname" jdbcType="NVARCHAR" />
+    <result column="HostIp" property="hostip" jdbcType="VARCHAR" />
+    <result column="UserAgent" property="useragent" jdbcType="NVARCHAR" />
+    <result column="Url" property="url" jdbcType="NVARCHAR" />
+    <result column="PostData" property="postdata" jdbcType="NVARCHAR" />
+    <result column="ActionBeginTime" property="actionbegintime" jdbcType="TIMESTAMP" />
+    <result column="ActionEndTime" property="actionendtime" jdbcType="TIMESTAMP" />
+    <result column="ResultBeginTime" property="resultbegintime" jdbcType="TIMESTAMP" />
+    <result column="ResultEndTime" property="resultendtime" jdbcType="TIMESTAMP" />
+    <result column="ActionHaoShi" property="actionhaoshi" jdbcType="DOUBLE" />
+    <result column="ResultHaoShi" property="resulthaoshi" jdbcType="DOUBLE" />
+    <result column="FormMethod" property="formmethod" jdbcType="VARCHAR" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from `Log`
+    where Id = #{id,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="top.piao888.hbgc.domain.Log" >
+    insert into `Log` (Id, UserName, UserId, 
+      ControllName, ControllDisplayName, ActionName, 
+      ActionDisplayName, HostName, HostIp, 
+      UserAgent, Url, PostData, 
+      ActionBeginTime, ActionEndTime, ResultBeginTime, 
+      ResultEndTime, ActionHaoShi, ResultHaoShi, 
+      FormMethod)
+    values (#{id,jdbcType=CHAR}, #{username,jdbcType=NVARCHAR}, #{userid,jdbcType=CHAR}, 
+      #{controllname,jdbcType=VARCHAR}, #{controlldisplayname,jdbcType=NVARCHAR}, #{actionname,jdbcType=VARCHAR}, 
+      #{actiondisplayname,jdbcType=NVARCHAR}, #{hostname,jdbcType=NVARCHAR}, #{hostip,jdbcType=VARCHAR}, 
+      #{useragent,jdbcType=NVARCHAR}, #{url,jdbcType=NVARCHAR}, #{postdata,jdbcType=NVARCHAR}, 
+      #{actionbegintime,jdbcType=TIMESTAMP}, #{actionendtime,jdbcType=TIMESTAMP}, #{resultbegintime,jdbcType=TIMESTAMP}, 
+      #{resultendtime,jdbcType=TIMESTAMP}, #{actionhaoshi,jdbcType=DOUBLE}, #{resulthaoshi,jdbcType=DOUBLE}, 
+      #{formmethod,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="top.piao888.hbgc.domain.Log" >
+    update `Log`
+    set UserName = #{username,jdbcType=NVARCHAR},
+      UserId = #{userid,jdbcType=CHAR},
+      ControllName = #{controllname,jdbcType=VARCHAR},
+      ControllDisplayName = #{controlldisplayname,jdbcType=NVARCHAR},
+      ActionName = #{actionname,jdbcType=VARCHAR},
+      ActionDisplayName = #{actiondisplayname,jdbcType=NVARCHAR},
+      HostName = #{hostname,jdbcType=NVARCHAR},
+      HostIp = #{hostip,jdbcType=VARCHAR},
+      UserAgent = #{useragent,jdbcType=NVARCHAR},
+      Url = #{url,jdbcType=NVARCHAR},
+      PostData = #{postdata,jdbcType=NVARCHAR},
+      ActionBeginTime = #{actionbegintime,jdbcType=TIMESTAMP},
+      ActionEndTime = #{actionendtime,jdbcType=TIMESTAMP},
+      ResultBeginTime = #{resultbegintime,jdbcType=TIMESTAMP},
+      ResultEndTime = #{resultendtime,jdbcType=TIMESTAMP},
+      ActionHaoShi = #{actionhaoshi,jdbcType=DOUBLE},
+      ResultHaoShi = #{resulthaoshi,jdbcType=DOUBLE},
+      FormMethod = #{formmethod,jdbcType=VARCHAR}
+    where Id = #{id,jdbcType=CHAR}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select Id, UserName, UserId, ControllName, ControllDisplayName, ActionName, ActionDisplayName, 
+    HostName, HostIp, UserAgent, Url, PostData, ActionBeginTime, ActionEndTime, ResultBeginTime, 
+    ResultEndTime, ActionHaoShi, ResultHaoShi, FormMethod
+    from `Log`
+    where Id = #{id,jdbcType=CHAR}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select Id, UserName, UserId, ControllName, ControllDisplayName, ActionName, ActionDisplayName, 
+    HostName, HostIp, UserAgent, Url, PostData, ActionBeginTime, ActionEndTime, ResultBeginTime, 
+    ResultEndTime, ActionHaoShi, ResultHaoShi, FormMethod
+    from `Log`
+  </select>
+</mapper>

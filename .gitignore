@@ -1,0 +1,6 @@
+.idea
+gcthrift/target
+testThrift/target
+thrift-domo/target
+thriftgc/target
+
