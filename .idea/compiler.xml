@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="thriftgc" />
+        <module name="client" />
         <module name="gcthrift" />
         <module name="thrift-domo" />
         <module name="testThrift" />
+        <module name="thriftgc" />
       </profile>
     </annotationProcessing>
   </component>

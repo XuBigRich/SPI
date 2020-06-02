@@ -13,6 +13,7 @@
     <module>testThrift</module>
     <module>thriftgc</module>
       <module>thrift-domo</module>
+      <module>client</module>
   </modules>
 
   <name>gc</name>
